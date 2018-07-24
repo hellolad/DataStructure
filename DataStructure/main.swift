@@ -11,16 +11,20 @@ import Foundation
 excute("线性表顺序存储结构") {
     var list = SqList()
     var e: ElemType = 0
-    GetElem(L: list, i: 1, e: &e)
+    OrderStore.GetElem(L: list, i: 1, e: &e)
     print("e = \(e)")
-    ListInsert(L: &list, i: 1, e: 3)
-    GetElem(L: list, i: 1, e: &e)
+    OrderStore.ListInsert(L: &list, i: 1, e: 3)
+    OrderStore.GetElem(L: list, i: 1, e: &e)
     print("e = \(e)")
-    ListInsert(L: &list, i: 1, e: 4)
+    OrderStore.ListInsert(L: &list, i: 1, e: 4)
     print(list.data)
-    ListInsert(L: &list, i: 2, e: 5)
+    OrderStore.ListInsert(L: &list, i: 2, e: 5)
     print(list.data)
-    ListDelete(L: &list, i: 2, e: &e)
+    OrderStore.ListDelete(L: &list, i: 2, e: &e)
     print(list.data, e, list.length)
+}
+
+excute("线性表链式存储结构") {
+    
 }
 
