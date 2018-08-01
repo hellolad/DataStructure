@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F540291D211187DB00B117EF /* 线性表.swift in Sources */ = {isa = PBXBuildFile; fileRef = F540291C211187DB00B117EF /* 线性表.swift */; };
 		F54B5A6F21074DEA00016689 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B5A6E21074DEA00016689 /* main.swift */; };
-		F54B5A7721074DFE00016689 /* 线性表顺序存储结构.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B5A7521074DFE00016689 /* 线性表顺序存储结构.swift */; };
 		F54B5A7821074DFE00016689 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B5A7621074DFE00016689 /* Util.swift */; };
-		F54B5A7A210753E200016689 /* 线性表链式存储结构.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B5A79210753E200016689 /* 线性表链式存储结构.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F540291C211187DB00B117EF /* 线性表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "线性表.swift"; sourceTree = "<group>"; };
 		F54B5A6B21074DEA00016689 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54B5A6E21074DEA00016689 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		F54B5A7521074DFE00016689 /* 线性表顺序存储结构.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "线性表顺序存储结构.swift"; sourceTree = "<group>"; };
 		F54B5A7621074DFE00016689 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
-		F54B5A79210753E200016689 /* 线性表链式存储结构.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "线性表链式存储结构.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +61,7 @@
 		F54B5A6D21074DEA00016689 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
-				F54B5A7521074DFE00016689 /* 线性表顺序存储结构.swift */,
-				F54B5A79210753E200016689 /* 线性表链式存储结构.swift */,
+				F540291C211187DB00B117EF /* 线性表.swift */,
 				F54B5A7621074DFE00016689 /* Util.swift */,
 				F54B5A6E21074DEA00016689 /* main.swift */,
 			);
@@ -128,9 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54B5A7A210753E200016689 /* 线性表链式存储结构.swift in Sources */,
-				F54B5A7721074DFE00016689 /* 线性表顺序存储结构.swift in Sources */,
 				F54B5A7821074DFE00016689 /* Util.swift in Sources */,
+				F540291D211187DB00B117EF /* 线性表.swift in Sources */,
 				F54B5A6F21074DEA00016689 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
