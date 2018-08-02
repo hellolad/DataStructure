@@ -53,7 +53,7 @@ import Foundation
 //}
 
 
-excute("线性表2") {
+excute("线性表") {
   var list = LinearTable2(capacity: 10)
   list.insert(index: 1, element: 1)
   list.debug()
@@ -69,5 +69,35 @@ excute("线性表2") {
   list.debug()
   list.delete(index: 2)
   list.debug()
+}
+
+excute("单链表 头插法") {
+  let head = LinkList(data: 1)
+  for i in 0..<10 {
+    let p = LinkList(data: i+2)
+    p.next = head.next
+    head.next = p
+  }
+  
+  print(head.data)
+  print(head.next?.data)
+  print(head.next?.next?.data)
+  print(head.next?.next?.next?.data)
+  print(head.next?.next?.next?.next?.data)
+}
+
+excute("单链表 尾插发") {
+  let head = LinkList(data: 1)
+  var r = head
+  for i in 0..<10 {
+    let p = LinkList(data: i+2)
+    r.next = p
+    r = p
+  }
+  print(head.data)
+  print(head.next?.data)
+  print(head.next?.next?.data)
+  print(head.next?.next?.next?.data)
+  print(head.next?.next?.next?.next?.data)
 }
 

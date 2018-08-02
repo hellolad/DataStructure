@@ -8,11 +8,6 @@
 
 import Foundation
 
-let MAXSIZE = 20
-typealias ElemType = Int
-typealias Status = Int
-typealias LinkList = Node
-
 func excute(_ message: String, closure: () -> Void) {
     print("---- \(message) ----")
     closure()
